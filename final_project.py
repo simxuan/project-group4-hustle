@@ -131,7 +131,7 @@ if st.checkbox("Question 2"):
     " For the usage of dryer, the dryer 7 has the most usage in drying clothes while the dryer 8 has the least usage. For drying blankets as well, the dryer 7 has the most usage compared to the dryer 9.")
 
 if st.checkbox("Question 3"):
-    st.write("3. Does a big basket size contain blankets while a small basket size contains clothes?")
+    st.write("3. Does the majority of big basket size contain blankets while the majority of small basket size contains clothes?")
     img = Image.open('q3.jpg')
     st.image(img)
     st.write("Based on the confusion matrix, it shows that the majority of the customers use big baskets to place their clothes, "
